@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+<body>
+    <form action="./response.html" name="Rehan" target="_blank" method="get" >
+
+    <fieldset>
+        <legend>Personal Infromation</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="namessss" id="name"  placeholder="Enter yor name" required>
+    <br><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="emailss" placeholder="Enter your email"  required>
+    <br><br>
+
+
+        <label for="Phone Number">Phone Number</label>
+        <input type="tel" name="phone" id="phone" placeholder="XXXXXXXXXX" required>
+    <br><br>
+
+        
+     <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob" placeholder="ENter your DOB"  >
+    <br><br>
+
+
+
+        <label for="add">Address:</label>
+        <textarea name="add" id="add" rows="15" cols="20"></textarea>
+    <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="pass" name="pass" required>
+         
+    <br><br>
+
+
+        <label for="attempt">Attempt:</label>
+        <input type="number" id="attemp" name="attempt" min="1" max="20" required>
+    <br><br>
+
+
+
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male"  name="gender"  value="male" required>Male
+
+        <input type="radio" id="female" name="gender"  value="female" required><label for="Female">Female</label>
+    <br><br>
+
+
+
+        <label for="check">Vehicles u have:</label>
+        <input type="checkbox" name="vehicle1" id="car">Bugati
+
+        <input type="checkbox" name="vehicle1" id="car">Ferrari
+
+        <input type="checkbox" name="vehicle1" id="car">Vicky
+    <br><br>
+
+
+
+        <label for="select">Select Your Languages:</label>
+        <select name="sel" id="sel">
+            <option>Select your choice</option>
+            <optgroup label="Programming languages">
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+             <option value="Java">Java </option>
+            </optgroup>
+            <optgroup label="Frontend Languages">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+               </optgroup>
+        </select>
+    <br><br>
+
+
+
+
+
+    <label for="upload">Upload your docs:</label>
+    <input type="file" required>
+    <br><br>
+
+    <label for="appointment">Appointment:</label>
+    <input type="time">
+    <br><br>
+
+    <label for="url">URL:</label>
+    <input type="url" name="url" >
+
+    <input type="submit" >
+    <input type="reset">
+
+    </fieldset>
+    </form>
+    
+</body>
+</html>
